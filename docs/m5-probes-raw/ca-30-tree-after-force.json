@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "sceneName": "SampleScene",
+    "nodeCount": 6,
+    "maxDepth": 0,
+    "roots": [
+      {
+        "name": "Main Camera",
+        "path": "Main Camera",
+        "active": true,
+        "components": [
+          "Transform",
+          "Camera",
+          "AudioListener"
+        ],
+        "siblingIndex": 0,
+        "tag": "MainCamera",
+        "layer": 0,
+        "children": []
+      },
+      {
+        "name": "Directional Light",
+        "path": "Directional Light",
+        "active": true,
+        "components": [
+          "Transform",
+          "Light"
+        ],
+        "siblingIndex": 1,
+        "tag": "Untagged",
+        "layer": 0,
+        "children": []
+      },
+      {
+        "name": "Hero",
+        "path": "Hero",
+        "active": true,
+        "components": [
+          "Transform",
+          "SpriteRenderer"
+        ],
+        "siblingIndex": 2,
+        "tag": "Untagged",
+        "layer": 0,
+        "children": []
+      },
+      {
+        "name": "CaSrc",
+        "path": "CaSrc",
+        "active": true,
+        "components": [
+          "Transform"
+        ],
+        "siblingIndex": 3,
+        "tag": "Untagged",
+        "layer": 0,
+        "children": []
+      },
+      {
+        "name": "CaDifferent",
+        "path": "CaDifferent",
+        "active": true,
+        "components": [
+          "Transform"
+        ],
+        "siblingIndex": 4,
+        "tag": "Untagged",
+        "layer": 0,
+        "children": []
+      },
+      {
+        "name": "CaDifferent",
+        "path": "CaDifferent",
+        "active": true,
+        "components": [
+          "Transform"
+        ],
+        "siblingIndex": 5,
+        "tag": "Untagged",
+        "layer": 0,
+        "children": []
+      }
+    ],
+    "otherSceneCount": 0,
+    "otherSceneNames": [],
+    "tooDeep": false
+  },
+  "hint": []
+}

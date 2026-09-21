@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "verified": false,
+  "code": "SCRIPT_COMPILE_ERROR",
+  "message": "动态代码编译失败：Another execution is already in progress",
+  "intent": null,
+  "actual": {
+    "errors": [],
+    "errorMessage": "Another execution is already in progress"
+  },
+  "hint": [
+    "修正 C# 片段后重试；`unity exec` 的代码里不能有编译错误（编辑器控制台也会显示）"
+  ],
+  "retryable": false
+}

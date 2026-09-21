@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "result": "{\"components\":[\"RectTransform\",\"CanvasRenderer\",\"Image\"],\"hasImage\":true,\"imageEnabled\":true,\"imageSpriteNull\":true,\"imageSpriteName\":null,\"imageSpriteAssetPath\":null,\"hasSpriteRenderer\":false,\"localScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+  },
+  "hint": [
+    "actual.result 是脚本 return 的原样值（脚本没有 return → null）",
+    "本命令是执行/读命令：没有可比对的 intent，verified 恒为 null —— 别把它当写命令的验证结果"
+  ]
+}

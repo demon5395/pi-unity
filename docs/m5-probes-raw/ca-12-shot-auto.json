@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "verified": false,
+  "code": "ULOOP_ERROR",
+  "message": "PlayMode rendering did not produce an image.",
+  "intent": null,
+  "actual": null,
+  "hint": [
+    "Open the Game view or Device Simulator, wait for a frame, then retry the rendering screenshot."
+  ],
+  "retryable": false
+}

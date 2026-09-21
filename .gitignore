@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+library/
+temp/
+local/
+*.log
+.DS_Store
+
+.superpowers/
+
+# uloop 后端（运行时下载，不入库）
+vendor/
+uloop-bin/

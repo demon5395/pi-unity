@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "result": "{\"source\":\"24x16\",\"maxTextureSize\":8,\"npotScale\":\"None\",\"texWidth\":8,\"texHeight\":5,\"texFormat\":\"RGBA32\"}"
+  },
+  "hint": [
+    "actual.result 是脚本 return 的原样值（脚本没有 return → null）",
+    "本命令是执行/读命令：没有可比对的 intent，verified 恒为 null —— 别把它当写命令的验证结果"
+  ]
+}

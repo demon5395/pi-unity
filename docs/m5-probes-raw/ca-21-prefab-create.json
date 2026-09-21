@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "verified": true,
+  "intent": {
+    "prefab": {
+      "asset": "Assets/Prefabs/CaDifferent.prefab",
+      "name": "CaDifferent",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "spriteAssetPath": null,
+      "components": [
+        "Transform"
+      ]
+    }
+  },
+  "actual": {
+    "prefab": {
+      "asset": "Assets/Prefabs/CaDifferent.prefab",
+      "name": "CaDifferent",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "spriteAssetPath": null,
+      "guid": "01f5ff785b93e1145a671f166f212e3c",
+      "components": [
+        "Transform"
+      ]
+    },
+    "guid": "01f5ff785b93e1145a671f166f212e3c",
+    "file": {
+      "path": "Assets/Prefabs/CaDifferent.prefab",
+      "bytes": 908,
+      "mtimeMs": 1789917094231.109
+    }
+  },
+  "hint": [],
+  "mismatches": []
+}

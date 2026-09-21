@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "result": "{\"assetPath\":\"Assets/Art/ca-defaults.png\",\"textureType\":\"Default\",\"filterMode\":\"Bilinear\",\"textureCompression\":\"Compressed\",\"spritePixelsPerUnit\":100.0,\"isReadable\":false,\"alphaIsTransparency\":false,\"mipmapEnabled\":true,\"wrapMode\":\"Repeat\",\"npotScale\":\"ToNearest\",\"spriteImportMode\":\"None\",\"maxTextureSize\":2048,\"spriteMeshType\":\"Tight\",\"spriteExtrude\":1,\"spriteAlignment\":\"0\",\"texWidth\":32,\"texHeight\":16,\"texFormat\":\"DXT5\"}"
+  },
+  "hint": [
+    "actual.result 是脚本 return 的原样值（脚本没有 return → null）",
+    "本命令是执行/读命令：没有可比对的 intent，verified 恒为 null —— 别把它当写命令的验证结果"
+  ]
+}

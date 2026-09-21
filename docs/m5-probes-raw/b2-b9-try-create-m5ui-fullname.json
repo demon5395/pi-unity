@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "verified": true,
+  "intent": {
+    "name": "M5UI",
+    "active": true
+  },
+  "actual": {
+    "name": "M5UI",
+    "active": true,
+    "path": "M5UI",
+    "siblingIndex": 4,
+    "instanceId": -4264,
+    "matchCount": 1,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "sprite": null,
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image"
+    ]
+  },
+  "hint": [],
+  "mismatches": []
+}

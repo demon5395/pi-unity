@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "path": "C:\Users\<用户>\\pi-unity-official-f3c1\\docs\\m5-probes-raw\\ca-shots\\Game_20260920_231112_737.png",
+    "width": 1101,
+    "height": 540,
+    "captureMode": "window",
+    "windowName": "Game",
+    "retriedFrom": "游戏",
+    "screenshotCount": 1,
+    "fileSizeBytes": 99910,
+    "resolutionScale": 1,
+    "imageCoordinateSystem": "top-left-window",
+    "imageToInputOffsetY": 0,
+    "gameViewWidth": 0,
+    "gameViewHeight": 0,
+    "screenshotToInputFormula": "unavailable: window screenshots include Unity Editor chrome; use capture-mode rendering for mouse input coordinates",
+    "unityInputFormula": "",
+    "annotatedElementCount": 0,
+    "timedOut": false
+  },
+  "hint": [
+    "窗口名 `游戏` 未命中（界面语言判定为 zh_CN），改用 `Game` 后成功 —— 当前编辑器的界面语言与 Hub 配置不一致（双引擎共存时常见，PITFALLS 官方-2）",
+    "上游警告：This window capture includes Unity Editor chrome. If you wanted the Game View image (typical during Play Mode), re-run with --capture-mode rendering.",
+    "若画面是暂停前的旧帧，用 `uloop control-play-mode --action Step` 步进一帧后重拍"
+  ]
+}

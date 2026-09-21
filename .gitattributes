@@ -1,0 +1,15 @@
+# 行尾与二进制归一化
+#
+# 为什么需要它：本仓库曾在「实现者 LF 工作树绿 / master CRLF 检出红」上栽过一次
+# （JS 正则里 \r 也是行终止符、`.` 不匹配它 → stripComments 在 CRLF 上失效）。
+# 归一到 LF 后，工作树形态不再依赖各人的 core.autocrlf 设置。详见 docs/M3-DECISIONS.md（CRLF 事故）。
+* text=auto eol=lf
+
+# Windows 批处理脚本必须 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制（不要做行尾/文本转换）
+*.png binary
+*.tgz binary
+*.bin binary

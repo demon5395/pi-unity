@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "result": "[{\"name\":\"CaSrc\",\"siblingIndex\":3,\"localPos\":\"-3,-3,0\",\"localScale\":\"2,2,1\",\"isPartOfPrefabInstance\":false,\"prefabInstanceStatus\":\"NotAPrefab\"},{\"name\":\"CaA\",\"siblingIndex\":4,\"localPos\":\"5,5,0\",\"localScale\":\"3,3,1\",\"isPartOfPrefabInstance\":true,\"prefabInstanceStatus\":\"Connected\"}]"
+  },
+  "hint": [
+    "actual.result 是脚本 return 的原样值（脚本没有 return → null）",
+    "本命令是执行/读命令：没有可比对的 intent，verified 恒为 null —— 别把它当写命令的验证结果"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "verified": false,
+  "intent": {
+    "sprite": {
+      "assetPath": "Assets/Art/hero-blind.png",
+      "worldSize": {
+        "x": 2,
+        "y": 1
+      }
+    }
+  },
+  "actual": {
+    "name": "M5Draw",
+    "active": true,
+    "path": "M5Draw",
+    "siblingIndex": 3,
+    "instanceId": -4254,
+    "matchCount": 1,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 5.33333349,
+      "y": 4,
+      "z": 1
+    },
+    "sprite": {
+      "present": true,
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "sortingOrder": 0,
+      "sortingLayerName": "Default",
+      "spriteName": "hero-blind",
+      "assetPath": "Assets/Art/hero-blind.png",
+      "ppu": 16,
+      "worldSize": {
+        "x": 26.6666679,
+        "y": 20
+      }
+    },
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  "hint": [
+    "读回与意图不一致（verified:false）——assetPath 为 null 说明没挂上资产；worldSize 不符说明父级有缩放/旋转（节点或其祖先有**旋转**时 sr.bounds 是世界 AABB ≠ 精灵宽高 → 本命令会**预期地**落 verified:false：改用 `shot`+`pixels` 判据，或先把旋转清零）；逐条查 mismatches，**不要**为此放宽容差"
+  ],
+  "mismatches": [
+    {
+      "key": "sprite.worldSize.x",
+      "intent": 2,
+      "actual": 26.6666679
+    },
+    {
+      "key": "sprite.worldSize.y",
+      "intent": 1,
+      "actual": 20
+    }
+  ]
+}

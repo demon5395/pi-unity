@@ -1,0 +1,31 @@
+{
+  "ok": false,
+  "verified": false,
+  "code": "UNITY_SERVER_BUSY",
+  "message": "'get-hierarchy' was not executed because Unity is busy running 'execute-dynamic-code' (running for 12s). uloop is single-flight by design; never run uloop commands in parallel. The CLI already retried for up to 10 seconds, so wait for 'execute-dynamic-code' to complete and run the command again.",
+  "intent": null,
+  "actual": {
+    "Code": -32603,
+    "Data": {
+      "isPaused": false,
+      "isPlaying": false,
+      "message": "Unity is busy running 'execute-dynamic-code'. Retry 'get-hierarchy' after the running tool completes.",
+      "requestedToolName": "get-hierarchy",
+      "runningToolElapsedSeconds": 12,
+      "runningToolName": "execute-dynamic-code",
+      "secondsSinceLastMainThreadTick": 12.0320602,
+      "type": "server_busy"
+    },
+    "EditorActivity": {
+      "secondsSinceLastMainThreadTick": 12.0320602
+    },
+    "Message": "Unity is busy running 'execute-dynamic-code'. Retry 'get-hierarchy' after the running tool completes."
+  },
+  "hint": [
+    "Wait for the running Unity command to complete.",
+    "Retry the command after Unity reports it is no longer busy.",
+    "Run a light command such as `uloop get-logs --max-count 1` to check whether Unity is still responsive before treating this as a freeze."
+  ],
+  "phase": "dispatch",
+  "retryable": true
+}

@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "verified": true,
+  "intent": {
+    "sprite": {
+      "assetPath": "Assets/Art/hero-blind.png"
+    }
+  },
+  "actual": {
+    "name": "M5UI",
+    "active": true,
+    "path": "M5UI",
+    "siblingIndex": 4,
+    "instanceId": -4264,
+    "matchCount": 1,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "sprite": {
+      "present": true,
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "sortingOrder": 0,
+      "sortingLayerName": "Default",
+      "spriteName": "hero-blind",
+      "assetPath": "Assets/Art/hero-blind.png",
+      "ppu": 16,
+      "worldSize": {
+        "x": 0.375,
+        "y": 0.25
+      }
+    },
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image",
+      "SpriteRenderer"
+    ]
+  },
+  "hint": [],
+  "mismatches": []
+}

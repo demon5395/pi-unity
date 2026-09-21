@@ -1,0 +1,33 @@
+{
+  "//": "engines.node 必须 >= 21（R211）：npm test 用显式 glob `test/*.test.js`，而该 glob 只能由 Node >= 21 的 `node --test` 自己展开（Windows 的 npm 走 cmd.exe，不展开 glob）。Node 18/20 不展开 glob，会把 glob 当字面路径 → `Could not find`（退出码 1）；真正危险的是匹配到 0 个文件的 glob 在 Node >= 21 上得到「0 条用例、退出码 0」的静默全绿，故下限不能降。M1 的 207 来自当时脚本是裸 `node --test`（递归收 test/ 全目录，把 test/fixtures/fake-uloop.js 当测试执行）。",
+  "name": "pi-unity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "让 Pi 端到端搭出可交付的 Unity / 团结引擎小游戏",
+  "keywords": [
+    "pi-package",
+    "unity",
+    "tuanjie",
+    "game",
+    "gamedev"
+  ],
+  "license": "UNLICENSED",
+  "bin": {
+    "unity": "bin/unity.js"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ],
+    "extensions": [
+      "./pi-extension"
+    ]
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {}
+}

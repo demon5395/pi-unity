@@ -1,0 +1,24 @@
+{
+  "ok": false,
+  "verified": false,
+  "code": "SCRIPT_COMPILE_ERROR",
+  "message": "C# 脚本编译失败：ca-04-u28-direct.cs:5 CS1061: 'TextureImporter' does not contain a definition for 'spriteMeshType' and no accessible extension method 'spriteMeshType' accepting a first argument of type 'TextureImporter' could be found (are you missing a using directive or an assembly reference?)",
+  "intent": null,
+  "actual": {
+    "errors": [
+      {
+        "message": "CS1061: 'TextureImporter' does not contain a definition for 'spriteMeshType' and no accessible extension method 'spriteMeshType' accepting a first argument of type 'TextureImporter' could be found (are you missing a using directive or an assembly reference?)",
+        "file": null,
+        "line": 5
+      }
+    ],
+    "errorMessage": "Compilation error occurred",
+    "script": "ca-04-u28-direct.cs"
+  },
+  "hint": [
+    "首条：CS1061: 'TextureImporter' does not contain a definition for 'spriteMeshType' and no accessible extension method 'spriteMeshType' accepting a first argument of type 'TextureImporter' could be found (are you missing a using directive or an assembly reference?)",
+    "修正 C:\Users\<用户>\\.pi\\agent\\git\\<内部 git 服务器>\\pi\\pi-unity\\docs\\m5-probes-raw\\ca-04-u28-direct.cs 后重试（编辑器控制台也会显示）"
+  ],
+  "phase": "compile",
+  "retryable": false
+}

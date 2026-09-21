@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "result": "[{\"name\":\"Main Camera\",\"siblingIndex\":0,\"localPos\":\"0,1,-10\",\"localScale\":\"1,1,1\",\"isPartOfPrefabInstance\":false,\"isPartOfPrefabAsset\":false,\"prefabAssetType\":\"NotAPrefab\",\"prefabInstanceStatus\":\"NotAPrefab\"},{\"name\":\"Directional Light\",\"siblingIndex\":1,\"localPos\":\"0,3,0\",\"localScale\":\"1,1,1\",\"isPartOfPrefabInstance\":false,\"isPartOfPrefabAsset\":false,\"prefabAssetType\":\"NotAPrefab\",\"prefabInstanceStatus\":\"NotAPrefab\"},{\"name\":\"Hero\",\"siblingIndex\":2,\"localPos\":\"0,0,0\",\"localScale\":\"8,8,1\",\"isPartOfPrefabInstance\":false,\"isPartOfPrefabAsset\":false,\"prefabAssetType\":\"NotAPrefab\",\"prefabInstanceStatus\":\"NotAPrefab\"},{\"name\":\"CaSrc\",\"siblingIndex\":3,\"localPos\":\"-3,-3,0\",\"localScale\":\"2,2,1\",\"isPartOfPrefabInstance\":false,\"isPartOfPrefabAsset\":false,\"prefabAssetType\":\"NotAPrefab\",\"prefabInstanceStatus\":\"NotAPrefab\"},{\"name\":\"CaDifferent\",\"siblingIndex\":4,\"localPos\":\"0,0,0\",\"localScale\":\"2,2,1\",\"isPartOfPrefabInstance\":true,\"isPartOfPrefabAsset\":false,\"prefabAssetType\":\"Regular\",\"prefabInstanceStatus\":\"Connected\"},{\"name\":\"CaDifferent\",\"siblingIndex\":5,\"localPos\":\"0,0,0\",\"localScale\":\"2,2,1\",\"isPartOfPrefabInstance\":true,\"isPartOfPrefabAsset\":false,\"prefabAssetType\":\"Regular\",\"prefabInstanceStatus\":\"Connected\"}]"
+  },
+  "hint": [
+    "actual.result 是脚本 return 的原样值（脚本没有 return → null）",
+    "本命令是执行/读命令：没有可比对的 intent，verified 恒为 null —— 别把它当写命令的验证结果"
+  ]
+}

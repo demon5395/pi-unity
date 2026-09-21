@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "verified": null,
+  "intent": null,
+  "actual": {
+    "result": "{\"assetPath\":\"Assets/Prefabs/CaP.prefab\",\"assetPos\":\"0,0,0\",\"assetScale\":\"3,3,1\",\"instPos\":\"5,5,0\",\"instScale\":\"3,3,1\",\"hasOverridesAfterApply\":false,\"fileMtime\":\"2026-09-20T15:20:06.8260357Z\"}"
+  },
+  "hint": [
+    "actual.result 是脚本 return 的原样值（脚本没有 return → null）",
+    "本命令是执行/读命令：没有可比对的 intent，verified 恒为 null —— 别把它当写命令的验证结果"
+  ]
+}
